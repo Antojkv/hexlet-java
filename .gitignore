@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Игнорировать все скомпилированные .class файлы
 *.class
 
@@ -25,4 +26,35 @@ bin/
 
 # Ignore Gradle build output directory
 build
+
+=======
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.settings/
+bin/
+.classpath
+.project
+
+# Mac
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
+
+# Dependency updates reports
+build/dependencyUpdates/
 
